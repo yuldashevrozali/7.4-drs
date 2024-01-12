@@ -1,0 +1,122 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.header.dark {
+    background-color: black;
+    color: white;
+}
+
+.header.light {
+    background-color: white;
+    color: red;
+}
+
+#devfinder {
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.checkbox {
+    padding-top: 15px;
+}
+
+.checkbox input[type='checkbox'] {
+    width: 30px;
+    position: absolute;
+    top: 30px;
+    right: 7px;
+    height: 20px;
+    appearance: none;
+}
+
+.checked {
+    transition: all 0.8s;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-right: 7px;
+}
+
+.checked p {
+    color: #697C9A;
+    text-align: right;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.5px;
+}
+
+input[type='search'] {
+    width: 900px;
+    font-size: 24px;
+    border: none;
+    outline: none;
+    height: 50px;
+}
+
+.hero-top {
+    width: 1100px;
+    margin-left: 50px;
+    padding: 10px 0px 10px 45px;
+    margin-top: 50px;
+    border-radius: 15px;
+    background: #FEFEFE;
+    box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.20);
+    margin-bottom: 35px;
+}
+
+.hero-top svg {
+    margin-bottom: -6px;
+    margin-right: 10px;
+}
+
+.hero-left{
+    margin-left: 50px;
+    margin-right: 60px;
+}
+
+.hero-bottom {
+    display: flex;
+    width: 1100px;
+    padding-right: 40px;
+    margin-left: 60px;
+    margin-top: 50px;
+    border-radius: 15px;
+    background: #FEFEFE;
+    box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.20);
+}
+
+.block-left {
+    color: #2B3442;
+    font-family: Space Mono;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.block-right p {
+    color: #697C9A;
+    text-align: right;
+    font-family: Space Mono;
+    margin-left: 400px;
+    margin-top: 32px;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.hero-left img {
+    border-radius: 50%;
+}
+
+.hero-right {
+    display: flex;
+}
